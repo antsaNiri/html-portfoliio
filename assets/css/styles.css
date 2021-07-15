@@ -1,0 +1,198 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #063647; 
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #063e4b;
+}
+
+.section-2 {
+	background-color: #052D3D;
+}
+
+.section-3 {
+	background-color: #0E282E;
+}
+
+.section-4 {
+	background-color: #063647;
+	padding: 0.2rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:250px;
+	border-radius: 1000%;
+	width: -10%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+h1, .h1 {
+	font-size: 2rem;
+	line-height: -5;
+	letter-spacing: .1.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h2, .h2 {
+	font-size: 150% ;
+	line-height: -7;
+	letter-spacing: .1rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  h3, .h3 {
+	font-size: 100% ;
+	line-height: 2;
+	letter-spacing: .0rem;
+	font-family: "lora-regular", serif;
+  }
+
+  .intro-position {
+	font-family: "lora-regular", serif;
+	font-size: 0.8rem;
+	line-height: 2.2rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+.intro-position span {
+	display: inline-block;
+}
+.intro-position span::after {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 8px 0 14px;
+	color: rgba(255, 255, 255, 0.3);
+}
+.intro-position span:first-child::before {
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.title {
+	color: rgba(134, 165, 165, 0.993);
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.name{
+	color: rgb(109, 247, 224);
+	text-align: center;
+	height: 200%;
+}
+
+.firstname {
+	color: rgb(172, 209, 203);
+	text-align: center;
+	height: 200%;
+}
+
+.sname{
+		color: rgb(172, 209, 203);
+		text-align: center;
+		margin-bottom: 2rem;
+		height: 200%;
+	
+}
+
+.date {
+	color: cyan;
+	text-align: center;
+	margin-bottom: 0.5rem;
+	height: 200%;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+
+
+.facebook{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+.row{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	line-height: 2rem;
+
+	letter-spacing: .6rem;
+	color: #fcfcfc;
+	
+	text-align: center;
+}
+
+.row.col-four{
+	display: inline;
+}
+
+h5 ,.h5{
+	color: darkgoldenrod;
+}
+
+.col-four.tab-full{
+	font-size: 60%;
+	line-height: 2;
+	letter-spacing: .2rem;
+	
+}
